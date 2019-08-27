@@ -10,7 +10,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`Zinda Hu Sar (^^)/\n\nTelethon version: 1.9.0\nPython: 3.7.3\nUser: @arnab431\nDatabase Stats: Databases functioning normally!`"
+    mentions = "`Zinda Hu Sar (^^)/\n\nTelethon version: 1.9.0\nPython: 3.7.3\nUser: @AxeL_xD\nDatabase Stats: Databases functioning normally!`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
